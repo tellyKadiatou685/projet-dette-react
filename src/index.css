@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css ou dans votre fichier CSS principal */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
